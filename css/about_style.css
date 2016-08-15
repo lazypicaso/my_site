@@ -1,0 +1,118 @@
+.container {
+  width: 60%;
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+  margin-top: 2%;
+  /*background-color: #000000;*/
+  font-family: 'Dosis', sans-serif;
+}
+body {
+
+  background-color:#fff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  color: rgba(248, 128, 15, 1);
+  background-color: rgba(255, 255, 255, 0.95);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+#pictureContainer_myimage img {
+  max-height:280px;
+  /*border: 2px solid #f7800c;*/
+  float: right;
+  margin: 20px 40px 15px 20px;
+}
+#pictureContainer_miniimages img {
+  max-height:100px;
+  border: 2px solid #f7800c;
+  float: right;
+  margin: 15px 10px 15px 10px;
+}
+.pictureContainer_factimage img{
+    max-width:800px;
+    text-align: center;
+}
+
+.linkContainer_instagram img {
+    width:40px; /*exact image size*/
+    height:40px;
+    border: none;
+    margin:0 20px 0 20px;
+}
+.linkContainer_linkedin img {
+    width:40px; /*exact image size*/
+    height:40px;
+    border: none;
+    margin:0 60px 0 20px;
+  }
+#pictureContainer_myimage p {
+  color: rgba(90, 90, 90, 1);
+  margin-left:50px;
+  text-align: left;
+}
+#pictureContainer_myimage h3{
+  margin-top:20px;
+  margin-left:20px;
+  color: rgba(248, 128, 15, 1);
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+	list-style-type: none;
+
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+nav > ul > li > a {
+	color: #5a5a5a;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+	text-decoration: none;
+}
+
+/*nav > ul > li:hover {
+    background-color: rgb( 40, 44, 47 );
+}*/
+
+nav > ul > li:hover > a {
+    color: rgb( 247, 128, 12 );
+}
+small{
+  color:#5c5c5c;
+}
+
+hr {
+  border:none;
+  border-top:3px dotted #5a5a5a;
+  color:#5a5a5a;
+  height:1px;
+  width:80%;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.float-left{
+  float:left;
+}
+.thin_dotted_line{
+  border:none;
+  border-top:2px dotted rgb( 247, 128, 12 );
+  height:1px;
+  width:80%;
+}
