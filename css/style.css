@@ -207,28 +207,28 @@ button:hover {
 }
 /* Portfolio Page */
 #sketchbook_gallery img{
-    max-width:300px;
-    max-height:300px;
+    max-width:200px;
+    max-height:200px;
     border: 2px solid #f7800c;
-    margin: 25px 35px 10px 35px;
+    margin: 45px 35px 10px 45px;
 }
 #sketchbook_text p{
-    font-size: 35px;
-    margin: 0 120px 0 120px;
+    font-size: 25px;
+    column: #f7800c;
+    margin: 0 60px 0 80px;
+    width:120px;
     font-weight: bold;
     display:inline-block;
 }
-#sketchbook_gallery_row2 img{
-    max-width:300px;
-    max-height:300px;
-    border: 2px solid #f7800c;
-    margin: 45px 35px 10px 35px;
-}
+
 #sketchbook_text_row2 p{
-    font-size: 35px;
-    margin: 0 120px 25px 120px;
+    font-size: 25px;
+    width: 120px;
+    margin: 0 60px 0px 80px;
     font-weight: bold;
     display:inline-block;
+    color: #f7800c;
+
 }
 
 .clearfix:after {
@@ -243,25 +243,20 @@ button:hover {
 /*Sketchbook page */
 
 #portfolio_gallery img{
-    max-width:300px;
-    max-height:300px;
+    max-width:200px;
+    max-height:200px;
     border: 2px solid #f7800c;
-    margin: 45px 35px 10px 35px;
+    margin: 45px 35px 10px 45px;
 }
 #portfolio_text p{
-    font-size: 35px;
-    margin: 0 120px 25px 120px;
+    font-size: 25px;
+    margin: 0 60px 25px 80px;
+    width:120px;
     font-weight: bold;
     display:inline-block;
 }
-
-.clearfix:after {
-  display: block;
-  clear: both;
-  content: "";
+#gal1{
+  align-content: center;
 }
 
-.float-left{
-  float:left;
-}
 /*contact page */
